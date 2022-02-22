@@ -153,7 +153,7 @@
   }
   .first-section > .content > .image {
     position: relative;
-    left: -35px;
+    left: -34px;
   }
   @media (max-width: 991px) {
     .first-section > .content > .image > img {
@@ -194,7 +194,7 @@
   }
 /* Styling The Second Section */
   .second-section > .heading-section {
-    margin-bottom: 100px;
+    margin-bottom: 95px;
   }
   .second-section > .image {
     text-align: center;
@@ -207,11 +207,11 @@
   }
   /* Styling The Third Section */
   .third-section {
-    padding-top: calc(var(--paddingTopSection) - 85px);;
-    padding-bottom: calc(var(--paddingTBottomSection) + 20px);
+    padding-top: calc(var(--paddingTopSection) - 85px);
+    padding-bottom: calc(var(--paddingTBottomSection) + 25px);
   }
   .third-section > .heading-section {
-    margin-bottom: 55px;
+    margin-bottom: 60px;
   }
   .third-section > .padding {
     padding-right: 20px;
@@ -242,7 +242,7 @@
   }
   .box > h3 {
     margin: 40px auto 20px;
-    font-size: 22px;
+    font-size: 23px;
   }
   .box > p {
     max-width: 350px;
@@ -251,8 +251,8 @@
   }
 /* Styling The fourth Section */
   .fourth-section > .padding {
-    padding-right: 45px;
-    padding-left: 45px;
+    padding-right: 47px;
+    padding-left: 47px;
     margin: 0 auto;
   }
   .fourth-section .container {
@@ -271,7 +271,7 @@
 /* Styling The fifth Section */
   .fifth-section {
     padding-top: var(--paddingTopSection);
-    padding-bottom: var(--paddingTBottomSection);
+    padding-bottom: calc(var(--paddingTBottomSection) + 5px);
   }
   .fifth-section > .heading-section {
     margin-bottom: 50px;
@@ -281,10 +281,10 @@
     background-color: #F5F6F8;
   }
   footer> .container {
-    min-height: 140px;
+    min-height: 145px;
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
   }
   footer .logo {
@@ -294,7 +294,6 @@
   .footer-links {
     height: 80px;
     width: 70%;
-    gap: 0 75px;
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
