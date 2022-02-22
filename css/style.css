@@ -75,7 +75,7 @@
   .ios {
     background-color: var(--StrongCyan);
     border-bottom-color: hsl(171deg 93% 33%);
-    box-shadow: 0px 8px 15px rgb(38 186 164 / 30%);
+    box-shadow: 0px 8px 15px rgb(38 186 164 / 25%);
   }
   .ios:hover {
     background-color: hsla(171, 66%, 44%, 0.808);
@@ -83,7 +83,7 @@
   .mac {
     background-color: var(--LightBlue);
     border-bottom-color: hsl(233deg 36% 48%);
-    box-shadow: 0px 8px 15px rgb(97 115 255 / 30%);
+    box-shadow: 0px 8px 15px rgb(97 115 255 / 25%);
   }
   .mac:hover {
     background-color: hsla(233, 100%, 69%, 0.808);
@@ -164,7 +164,7 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
   }
   @media (max-width: 1280px) {
     .first-section > .content {
@@ -252,8 +252,8 @@
   }
 /* Styling The fourth Section */
   .fourth-section > .padding {
-    padding-right: 48px;
-    padding-left: 48px;
+    padding-right: 49px;
+    padding-left: 49px;
     margin: 0 auto;
   }
   .fourth-section .container {
@@ -299,7 +299,7 @@
   }
   .footer-links {
     height: 80px;
-    width: 65%;
+    width: 70%;
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
@@ -350,7 +350,7 @@
       padding: 0;
     }
   }
-  @media (min-width: 992px) and (max-width: 1275px) {
+  @media (min-width: 992px) and (max-width: 1300px) {
     .footer-links {
       padding-left: 100px;
       width: 80%;
