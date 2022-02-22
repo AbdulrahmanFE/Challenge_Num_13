@@ -64,7 +64,7 @@
   }
   .ios,
   .mac {
-    padding: 10px 30px;
+    padding: 15px 30px;
     border-radius: 50px;
     color: white;
     border-bottom: 3px solid transparent;
@@ -88,22 +88,24 @@
   }
 /* Styling The Header */
   header {
-    padding-top: 125px;
+    padding-top: 130px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   header > .content {
-    margin-top: 75px;
+    margin-top: 70px;
     text-align: center;
   }
   .title {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
   }
   .description {
-    margin: 20px auto 40px;
-    max-width: 625px;
+    margin: 20px auto 50px;
+    font-size: 20px;
+    max-width: 675px;
+    line-height: 1.5;
   }
   @media (max-width: 767px) {
     .title {
@@ -121,8 +123,8 @@
     text-align: center;
   }
   .sub-title {
-    font-size: 2.1rem;
-    margin-bottom: 15px;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
   }
   .sub-description {
     margin: 0 auto;
@@ -198,9 +200,9 @@
     padding-top: var(--paddingTopSection);
     padding-bottom: var(--paddingTBottomSection);
   }
-  .third-section > section {
-    padding-right: 20px;
-    padding-left: 20px;
+  .third-section > .padding {
+    padding-right: 25px;
+    padding-left: 25px;
     margin: 0 auto;
   }
   .boxes {
@@ -226,16 +228,17 @@
     }
   }
   .box > h3 {
-    margin: 30px auto 15px;
+    margin: 40px auto 20px;
   }
   .box > p {
-    max-width: 400px;
-    line-height: 1.6;
+    max-width: 350px;
+    line-height: 1.8;
+    font-size: 16px;
   }
 /* Styling The fourth Section */
-  .fourth-section > section {
-    padding-right: 15px;
-    padding-left: 15px;
+  .fourth-section > .padding {
+    padding-right: 25px;
+    padding-left: 25px;
     margin: 0 auto;
   }
   .fourth-section .container {
@@ -258,11 +261,12 @@
 /* Styling The Footer */
   footer {
     background-color: #F5F6F8;
-    min-height: 120px;
+    min-height: 140px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin: auto;
+    padding-top: 15px;
   }
   footer .logo {
     width: 50px;
