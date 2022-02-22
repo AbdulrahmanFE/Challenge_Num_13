@@ -96,7 +96,7 @@
     align-items: center;
   }
   header > .content {
-    margin-top: 65px;
+    margin-top: 60px;
     text-align: center;
   }
   .title {
@@ -119,7 +119,7 @@
     }
   }
 /* Components */
-  .section-heading {
+  .heading-section {
     margin: 0 auto 75px;
     text-align: center;
   }
@@ -130,7 +130,7 @@
   .sub-description {
     margin: 0 auto;
     max-width: 700px;
-    line-height: 1.5;
+    line-height: 1.6;
   }
   @media (max-width: 767px) {
     .sub-description {
@@ -159,7 +159,7 @@
   .lists {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 50px;
   }
   @media (max-width: 1280px) {
     .first-section > .content {
@@ -175,9 +175,11 @@
   }
   .list-title {
     margin-bottom: 10px;
+    font-size: 22px;
   }
   .list-description {
-    max-width: 400px;
+    font-size: 16px;
+    max-width: 350px;
     line-height: 1.7;
   }
   @media (max-width: 767px) {
@@ -202,8 +204,8 @@
     padding-bottom: var(--paddingTBottomSection);
   }
   .third-section > .padding {
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
     margin: 0 auto;
   }
   .boxes {
@@ -230,6 +232,7 @@
   }
   .box > h3 {
     margin: 40px auto 20px;
+    font-size: 22px;
   }
   .box > p {
     max-width: 350px;
@@ -238,14 +241,15 @@
   }
 /* Styling The fourth Section */
   .fourth-section > .padding {
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 40px;
+    padding-left: 40px;
     margin: 0 auto;
   }
   .fourth-section .container {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 100px;
     margin: 0 auto;
   }
   @media (max-width: 991px) {
@@ -258,6 +262,9 @@
   .fifth-section {
     padding-top: var(--paddingTopSection);
     padding-bottom: var(--paddingTBottomSection);
+  }
+  .fifth-section > .heading-section {
+    margin: 0 auto 50px;
   }
 /* Styling The Footer */
   footer {
