@@ -164,6 +164,7 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
+    padding-bottom: 10px;
   }
   @media (max-width: 1280px) {
     .first-section > .content {
@@ -208,10 +209,10 @@
   /* Styling The Third Section */
   .third-section {
     padding-top: calc(var(--paddingTopSection) - 85px);
-    padding-bottom: calc(var(--paddingTBottomSection) + 20px);
+    padding-bottom: calc(var(--paddingTBottomSection) + 10px);
   }
   .third-section > .heading-section {
-    margin-bottom: 65px;
+    margin-bottom: 70px;
   }
   .third-section > .padding {
     padding-right: 20px;
@@ -251,8 +252,8 @@
   }
 /* Styling The fourth Section */
   .fourth-section > .padding {
-    padding-right: 47px;
-    padding-left: 47px;
+    padding-right: 48px;
+    padding-left: 48px;
     margin: 0 auto;
   }
   .fourth-section .container {
@@ -261,6 +262,11 @@
     justify-content: center;
     gap: 100px;
     margin: 0 auto;
+  }
+  @media (min-width: 992px) and (max-width: 1275px) {
+    .fourth-section .container {
+      gap: 45px;
+    }
   }
   @media (max-width: 991px) {
     .fourth-section .container {
@@ -284,7 +290,7 @@
     min-height: 145px;
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
   }
   footer .logo {
@@ -293,7 +299,7 @@
   }
   .footer-links {
     height: 80px;
-    width: 60%;
+    width: 65%;
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
@@ -313,7 +319,7 @@
     align-items: center;
     justify-content: center;
     gap: 25px;
-    padding-left: 300px;
+    padding-left: 250px;
   }
   .social a {
     color: #4C545C;
@@ -326,7 +332,7 @@
     color: var(--color);
     transform: scale(1.07);
   }
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     footer > .container {
       flex-direction: column;
       padding: 30px;
@@ -342,5 +348,14 @@
     .social {
       gap: 20px;
       padding: 0;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1275px) {
+    .footer-links {
+      padding-left: 100px;
+      width: 80%;
+    }
+    .social {
+      padding-left: 20px;
     }
   }
