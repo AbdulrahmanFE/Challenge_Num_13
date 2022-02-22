@@ -64,9 +64,10 @@
   }
   .ios,
   .mac {
-    padding: 15px 30px;
+    padding: 15px 30px 12.5px;
     border-radius: 50px;
     color: white;
+    font-weight: 600;
     border-bottom: 3px solid transparent;
     transition: 0.3s;
   }
@@ -95,7 +96,7 @@
     align-items: center;
   }
   header > .content {
-    margin-top: 70px;
+    margin-top: 65px;
     text-align: center;
   }
   .title {
@@ -144,7 +145,7 @@
   .first-section > .content {
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 80px;
   }
   .first-section > .content > .image {
     position: relative;
@@ -158,7 +159,7 @@
   .lists {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
   }
   @media (max-width: 1280px) {
     .first-section > .content {
@@ -197,7 +198,7 @@
   }
   /* Styling The Third Section */
   .third-section {
-    padding-top: var(--paddingTopSection);
+    padding-top: calc(var(--paddingTopSection) - 50px);;
     padding-bottom: var(--paddingTBottomSection);
   }
   .third-section > .padding {
@@ -261,7 +262,7 @@
 /* Styling The Footer */
   footer {
     background-color: #F5F6F8;
-    min-height: 140px;
+    min-height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -273,7 +274,7 @@
     margin-bottom: 15px;
   }
   .footer-links {
-    height: 70px;
+    height: 80px;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -283,7 +284,7 @@
   }
   .footer-links > a {
     color: var(--DarkGrayishBlue);
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     transition: 0.2s;
   }
   .footer-links > a:hover {
