@@ -69,6 +69,7 @@
     color: white;
     font-weight: 600;
     border-bottom: 3px solid transparent;
+    font-size: 19px;
     transition: 0.3s;
   }
   .ios {
@@ -130,7 +131,7 @@
   .sub-description {
     margin: 0 auto;
     max-width: 700px;
-    line-height: 1.7;
+    line-height: 1.68;
   }
   @media (max-width: 767px) {
     .sub-description {
@@ -206,11 +207,11 @@
   }
   /* Styling The Third Section */
   .third-section {
-    padding-top: calc(var(--paddingTopSection) - 75px);;
-    padding-bottom: var(--paddingTBottomSection);
+    padding-top: calc(var(--paddingTopSection) - 85px);;
+    padding-bottom: calc(var(--paddingTBottomSection) + 20px);
   }
   .third-section > .heading-section {
-    margin-bottom: 60px;
+    margin-bottom: 55px;
   }
   .third-section > .padding {
     padding-right: 20px;
@@ -258,7 +259,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 90px;
+    gap: 100px;
     margin: 0 auto;
   }
   @media (max-width: 991px) {
@@ -278,12 +279,13 @@
 /* Styling The Footer */
   footer {
     background-color: #F5F6F8;
-    min-height: 150px;
+  }
+  footer> .container {
+    min-height: 140px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin: auto;
-    padding-top: 14px;
+    width: 80%;
+    margin: 0 auto;
   }
   footer .logo {
     width: 55px;
@@ -291,12 +293,13 @@
   }
   .footer-links {
     height: 80px;
-    width: 40%;
+    width: 70%;
+    gap: 0 75px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     align-items: flex-start;
     justify-content: flex-start;
+    padding-left: 150px;
   }
   .footer-links > a {
     color: var(--DarkGrayishBlue);
@@ -310,13 +313,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
+    padding-left: 150px;
   }
   .social a {
     color: #4C545C;
-    font-size: 28px;
-    max-width: 24px;
-    max-height: 24px;
+    font-size: 25px;
+    min-width: 24px;
+    min-height: 24px;
     transition: 0.3s;
   }
   .social a:hover {
@@ -324,18 +328,20 @@
     transform: scale(1.07);
   }
   @media (max-width: 767px) {
-    footer {
+    footer > .container {
       flex-direction: column;
       padding: 30px;
       gap: 30px;
     }
     .footer-links {
       height: auto;
+      padding-left: 0;
       align-items: center;
       justify-content: center;
       gap: 20px;
     }
     .social {
       gap: 20px;
+      padding: 0;
     }
   }
