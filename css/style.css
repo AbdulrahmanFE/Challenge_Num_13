@@ -64,7 +64,7 @@
   }
   .ios,
   .mac {
-    padding: 15px 35px 12.5px;
+    padding: 16px 35px 13px;
     border-radius: 50px;
     color: white;
     font-weight: 600;
@@ -103,7 +103,7 @@
     font-size: 2.8rem;
   }
   .description {
-    margin: 20px auto 50px;
+    margin: 15px auto 50px;
     font-size: 20px;
     max-width: 675px;
     line-height: 1.5;
@@ -120,7 +120,7 @@
   }
 /* Components */
   .heading-section {
-    margin: 0 auto 75px;
+    margin: 0 auto 0;
     text-align: center;
   }
   .sub-title {
@@ -142,6 +142,9 @@
     padding-top: var(--paddingTopSection);
     padding-bottom: var(--paddingTBottomSection);
   }
+  .first-section > .heading-section {
+    margin-bottom: 80px;
+  }
   .first-section > .content {
     display: flex;
     align-items: center;
@@ -149,7 +152,7 @@
   }
   .first-section > .content > .image {
     position: relative;
-    left: -30px;
+    left: -40px;
   }
   @media (max-width: 991px) {
     .first-section > .content > .image > img {
@@ -180,7 +183,7 @@
   .list-description {
     font-size: 16px;
     max-width: 350px;
-    line-height: 1.7;
+    line-height: 1.9;
   }
   @media (max-width: 767px) {
     .list-description {
@@ -189,6 +192,9 @@
     }
   }
 /* Styling The Second Section */
+  .second-section > .heading-section {
+    margin-bottom: 100px;
+  }
   .second-section > .image {
     text-align: center;
     margin: 0 auto;
@@ -202,6 +208,9 @@
   .third-section {
     padding-top: calc(var(--paddingTopSection) - 50px);;
     padding-bottom: var(--paddingTBottomSection);
+  }
+  .third-section > .heading-section {
+    margin-bottom: 60px;
   }
   .third-section > .padding {
     padding-right: 20px;
@@ -264,7 +273,7 @@
     padding-bottom: var(--paddingTBottomSection);
   }
   .fifth-section > .heading-section {
-    margin: 0 auto 50px;
+    margin-bottom: 50px;
   }
 /* Styling The Footer */
   footer {
