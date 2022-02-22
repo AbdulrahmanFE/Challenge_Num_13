@@ -64,7 +64,7 @@
   }
   .ios,
   .mac {
-    padding: 15px 30px 12.5px;
+    padding: 15px 35px 12.5px;
     border-radius: 50px;
     color: white;
     font-weight: 600;
@@ -96,11 +96,11 @@
     align-items: center;
   }
   header > .content {
-    margin-top: 60px;
+    margin-top: 55px;
     text-align: center;
   }
   .title {
-    font-size: 2.7rem;
+    font-size: 2.8rem;
   }
   .description {
     margin: 20px auto 50px;
@@ -175,7 +175,7 @@
   }
   .list-title {
     margin-bottom: 10px;
-    font-size: 22px;
+    font-size: 23px;
   }
   .list-description {
     font-size: 16px;
@@ -241,8 +241,8 @@
   }
 /* Styling The fourth Section */
   .fourth-section > .padding {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
     margin: 0 auto;
   }
   .fourth-section .container {
@@ -274,15 +274,15 @@
     align-items: center;
     justify-content: space-evenly;
     margin: auto;
-    padding-top: 15px;
+    padding-top: 20px;
   }
   footer .logo {
-    width: 50px;
+    width: 55px;
     margin-bottom: 15px;
   }
   .footer-links {
     height: 80px;
-    width: 50%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -301,7 +301,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
   }
   .social a {
     color: #4C545C;
